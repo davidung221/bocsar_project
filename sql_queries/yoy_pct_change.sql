@@ -8,7 +8,7 @@ This query shows the year-over-year % change in incidents per year, tracking cha
 
 E.g.,
 YEAR | TOTAL_INCIDENTS | PREVIOUS_YEAR_TOTAL | PCT_CHANGE
-1996 | 601692 | 528888 | 13.8
+1996 | 601,692 | 528,888 | 13.8
 ==============================================================================================
 */
 
