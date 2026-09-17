@@ -1,14 +1,7 @@
 # bocsar_project
-Monthly criminal incidents in NSW dataset:
-This datataset contains monthly data on all criminal incidents in NSW.
-Date range: 1995/01 - 2026/03
-Offence_categories: 21
-Subcategories: 49
-Number of incidents: 21,194,009
-
-
-Monthly criminal incidents in NSW by suburb dataset:
-Same dataset as the first one, but grouped by suburbs.
+The first dataset contains monthly data on all criminal incidents recorded by police by offence type in NSW.
+The second dataset is the same data grouped by suburbs.
+The third dataset is the 2021 official ABS CENSUS data, joined to the second dataset by suburb.
 
 # Census Data Preparation
 
