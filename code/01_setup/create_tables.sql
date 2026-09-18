@@ -32,7 +32,7 @@ CREATE TABLE suburbs (
   month           DATE NOT NULL,
   incident_count  INT NOT NULL CHECK (incident_count >= 0)
 );
-
+CREATE INDEX idx_suburb ON suburbs(suburb);
 ----------------------
 --- staging tables ---
 ----------------------
