@@ -1,6 +1,6 @@
--- the suburbs table was too large (70M+ rows), and there was a mismatch between the suburb names from the CENSUS and from BOCSAR.
--- sal_code was added to suburbs table for more efficient joins and regex was used to clean and match the suburb names.
--- the census_name_lookup table was created because a direct UPDATE was too inefficient.
+/* The suburbs table was too large (70M+ rows), and there was a mismatch between the suburb names from the CENSUS and from BOCSAR.
+sal_code was added to suburbs table for more efficient joins and regex was used to clean and match the suburb names.
+The census_name_lookup table was created because a direct UPDATE was too inefficient. */
 ALTER TABLE suburbs ADD COLUMN sal_code TEXT;
 
 CREATE TABLE census_name_lookup AS
