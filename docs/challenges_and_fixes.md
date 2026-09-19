@@ -3,9 +3,6 @@
 This document records the problems encountered while building this project,
 how they were diagnosed, and how they were resolved. 
 
-*(For the suburb-to-census `sal_code` linking process specifically, including its*
-*own performance issue, see `merge_methodology.md`.)*
-
 ---
 
 ## 1. NULL subcategory values in `offence_type`
